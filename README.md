@@ -3,6 +3,7 @@
 This game runs on two containers that predict numbers using Python, RabbitMQ and Docker.
 
 ## Game
+![System](https://github.com/ajiybanesij/Number-Prediction-Game/blob/master/System.PNG)
 
 Container_A generates a number between 0 and 9 and adds it to the A_to_B queue. It also expects data from the B_to_A queue. If data comes from the queue, it makes 5 number predictions and if one of the predictions is correct, it gets 1 point.
 
